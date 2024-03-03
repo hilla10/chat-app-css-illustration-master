@@ -67,10 +67,12 @@ h1 {
     font-size: 2.5rem;
     margin-bottom: 25px;
     font-weight: 500;
+    color: var(--very-dark-desaturated-violet);
 }
 
 .main__right p {
     line-height: 1.7;
+    color: var(--dark-grayish-violet);
 }
 
 .bg_gradient {
@@ -80,6 +82,17 @@ h1 {
     background: var(--bg-gradient);
     border-radius: 0 0 291px 182px;
     margin-bottom: 4rem;
+}
+
+.bg__light {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 122px;
+    width: 245px;
+    height: 100%;
+    background: #ececec;
+    border-radius: 250px 0 0 0;
 }
 
 .main__mobile {
@@ -381,4 +394,11 @@ a:hover {
         left: 65px;
     }
 
+    .bg__light {
+        top: 437px;
+        width: 253px;
+        height: 100%;
+        border-radius: 100% 0px 0 0;
+    }
 }
+
